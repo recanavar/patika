@@ -5,7 +5,7 @@
     1. Write the sorting steps of above array.
     2. Write the Big-O notation of above array.
 
-**Merge sorting steps for [16,21,11,8,12,22]:**
+**1. Merge sorting steps for [16,21,11,8,12,22]:**
 
     1. Divide the array from the middle of it until remain one element of each part.
        1. [16,21,11] - [8,12,22] ____
