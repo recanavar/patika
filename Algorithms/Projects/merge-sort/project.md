@@ -28,4 +28,4 @@
 
 **2. Big-O Notation of [8,11,12,16,21,22]:**
 
-    It should be o(nlogn) from dividing the array for each part. (2^x = n)
+    Due to the dividing the array for each part, time complexity should be o(nlogn). (2^x = n)
