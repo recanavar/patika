@@ -1,2 +1,3 @@
 # patika
-Patika.dev projects
+
+Patika.dev stuffs
