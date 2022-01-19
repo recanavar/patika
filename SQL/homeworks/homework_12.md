@@ -28,4 +28,4 @@
 
 **Result for Question 4:**
 
-<img src="/pics/query_result.png"/>
+<img src="/pics/query.png"/>
