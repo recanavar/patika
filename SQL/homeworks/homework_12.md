@@ -20,12 +20,12 @@
 ```
 
 ```SQL
-4. SELECT payment.customer_id, first_name, last_name, COUNT(payment.customer_id) FROM payment
+4. SELECT payment.customer_id, first_name, last_name, COUNT(payment.customer_id) AS payment_count FROM payment
    LEFT JOIN customer ON payment.customer_id = customer.customer_id
    GROUP BY payment.customer_id, customer.first_name, customer.last_name
-   ORDER BY count DESC;
+   ORDER BY payment_count DESC;
 ```
 
-**Result for Question 4: **
+**Result for Question 4:**
 
 <img src="/pics/query_result.png"/>
